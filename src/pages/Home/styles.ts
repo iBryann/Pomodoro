@@ -1,9 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-interface IHeader {
-    className: string;
-}
-
 export const Header = styled.header`
     max-width: 620px;
     width: 100%;

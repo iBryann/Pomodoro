@@ -55,7 +55,7 @@ const Style = createGlobalStyle<IStyle>`
                 border-radius: 4px;
                 transition: color 0.5s ease-in-out 0s;
             }
-            button:active {
+            button.active {
                 transform: translateY(6px);
                 box-shadow: none;
             }
